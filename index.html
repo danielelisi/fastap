@@ -27,19 +27,20 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <a class="navbar-brand" href="#"><img src="img/logoWhite.png" id="logo-navbar"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-navbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span> 
                     </button>
-                    <a class="navbar-brand" href="#">fastap</a>
+                    
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="collapse navbar-collapse" id="site-navbar">
                     <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">FEATURES</a></li>
                     <li><a href="#services">ABOUT US</a></li>
                     <li><a href="#portfolio">TESTIMONIALS</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
+                     <li><a href="#pricing">PRICING</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
@@ -48,9 +49,11 @@
         
         
         <!-- HEADER -->
-        <div class="jumbotron text-center">
-            <h1>Fastap</h1>
-            <p>Turn any watch SMART</p>
+        <div class="jumbotron">
+            <div id="header-text">
+                <h1>Fastap</h1>
+                <p>Turn any watch SMART</p>
+            </div>
         </div>
         
         
@@ -150,6 +153,34 @@
             
             
             </div>
+        </div>
+        
+        <div class="container-fluid bg-grey">
+          <h2 class="text-center">CONTACT</h2>
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Contact us and we'll get back to you within 24 hours.</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Vancouver, CA</p>
+              <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> info@fastap.com</p> 
+            </div>
+            <div class="col-sm-7">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+              </div> 
+            </div>
+          </div>
         </div>
         
         
