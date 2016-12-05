@@ -1,0 +1,26 @@
+.jumbotron {
+    color: #fff;
+    background-color:#548CDF;
+    padding: 40vh 40px;
+}
+
+.r-padding {
+    padding: 60px;
+}
+
+.grey-backg {
+    background-color: #969CA8;
+    color: #fff;
+}
+
+.logo-icon {
+    font-size: 180px;
+}
+
+.logo-service {
+    font-size: 50px;
+}
+
+.btn-color {
+    background-color: #548CDF;
+}
