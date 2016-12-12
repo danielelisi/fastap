@@ -1,13 +1,15 @@
 @media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 30px 0;
+    #subscribe-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .jumbotron {
     color: #000;
     background-color:#548CDF;
+    height: 100vh;
     padding: 40vh 40px;
     background-image: url(img/header.gif);
     background-position: center;
@@ -16,7 +18,9 @@
     font-size: 2em;
 }
 
-.
+#product {
+    margin-bottom: 4%;
+}
 
 .text-head {
     font-family: Montserrat, sans-serif;
@@ -56,11 +60,22 @@
     margin-top: -13px;
 }
 
-#white-band {
-    position: absolute;
-    height: 96%;
-    width: 40%;
-    background-color: rgba(255,255,255,0.5);
-    top: -1px;
-    left: 4px;
+/*TESTIMONIALS*/
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #548CDF;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+/*Footer*/
+footer {
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
